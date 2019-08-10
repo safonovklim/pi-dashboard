@@ -84,8 +84,8 @@ weather = get_weather()
 crypto = get_crpyto()
 
 while True:
-    print_text(format_weather_city(weather))
-    print_text(format_weather(weather))
+    # print_text(format_weather_city(weather))
+    # print_text(format_weather(weather))
 
     for item in crypto:
         print_text('1 ' + item['symbol'])
